@@ -3,6 +3,9 @@ html{
     width: 100%;
     height: 100%;
     background-image: url("Logos\ DN/dn219.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 /* desarrollado por Franco Donato Gonzalez */
