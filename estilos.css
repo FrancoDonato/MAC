@@ -36,6 +36,10 @@ h1{
 
 
 }
+#mac{
+    font-weight: 600;
+    font-size: large;
+}
 
 .botones{
     display: flex;
