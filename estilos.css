@@ -2,6 +2,7 @@ html{
     display: flex;
     width: 100%;
     height: 100%;
+    color: aliceblue;
     background-image: url("Logos\ DN/dn219.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,8 +31,10 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-style: groove; 
-    background-color: rgba(153, 57, 145, 0.911);
+    border-style: solid;
+    border-color: antiquewhite; 
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.925) 0%, rgba(121, 9, 89, 0.836) 95%, rgba(176, 14, 125, 0.705) 100%);
     box-shadow: 5px 15px 10px rgba(245, 244, 244, 0.548);
 
 
@@ -90,10 +93,16 @@ button{
 }
 
 h2{
-    font-size:1.5rem;
+    font-weight: 300;
+    font-size:1rem;
+}
+h3{
+    font-weight: 300;
+    font-size:1rem;
 }
 
 .redes{
+    color: aliceblue;
     display: flex;
     gap: 10px;
     font-size:1.5rem;
@@ -104,14 +113,20 @@ h2{
 }
 
 a{
-    color: black;
+    color: rgb(255, 255, 255);
     font-style: normal;
     text-decoration: none;
-    transition: text-shadow 1s;
+    transition: text-shadow 0.7s;
+}
+
+i{
+    font-size: 1.5rem;
+    color: rgb(102, 141, 175);
 }
 
 a:hover{
-    text-shadow: 2px 3px 5px rgb(245, 244, 244);
+
+    text-shadow: 2px 3px 5px rgba(8, 4, 247, 0.753);
 }
 
 @media (max-width: 840px) {
@@ -123,6 +138,8 @@ a:hover{
     }
     .contenedorApp{
         width: 80%;
+        height: 80%;
+        align-items: center;
     }
     h1{
         font-size: 1.5rem;

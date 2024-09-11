@@ -63,6 +63,9 @@ banelco.addEventListener("click", function () {
       case "P":
         primeraParte = "015";
         break;
+      default:
+        mac.textContent = "El id es invalido"; 
+
     }
     mac.textContent = "La mac es: " + primeraParte + numeros + " 1100000100"; 
  } 
