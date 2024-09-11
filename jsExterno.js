@@ -4,8 +4,11 @@ var banelco = document.getElementById("banelco");
 var link = document.getElementById("link");
 
 banelco.addEventListener("click", function () {
- if (idCajero.value.length == 8) {
-    var textoID = idCajero.value;
+  
+  let textoSinEspacios = idCajero.value.replace(/\s+/g, '');
+
+ if (textoSinEspacios.length == 8) {
+    var textoID = textoSinEspacios;
     var terceraLetra = textoID.charAt(2);
     var terceraLetraMayuscula = terceraLetra.toUpperCase();
     var primeraParte;
