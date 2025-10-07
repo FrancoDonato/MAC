@@ -35,7 +35,7 @@ h1{
     border-color: antiquewhite; 
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2, 0, 36, 0.925) 0%, rgba(121, 9, 89, 0.836) 95%, rgba(176, 14, 125, 0.705) 100%);
-    box-shadow: 5px 15px 10px rgba(245, 244, 244, 0.548);
+    box-shadow: 5px 5px 5px rgba(245, 244, 244, 0.548);
 
 
 }
