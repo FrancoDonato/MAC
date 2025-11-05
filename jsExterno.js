@@ -22,10 +22,10 @@ banelco.addEventListener("click", function () {
         primeraParte = "001";
         break;
       case "C":
-        primeraParte = "003";
+        primeraParte = "002";
         break;
       case "D":
-        primeraParte = "002";
+        primeraParte = "003";
         break;
       case "E":
         primeraParte = "004";
